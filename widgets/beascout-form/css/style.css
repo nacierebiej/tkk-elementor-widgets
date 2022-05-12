@@ -1,0 +1,63 @@
+.scouting_beascout_form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.bsa-form-custom-center {
+  display: flex;
+  justify-content: center;
+}
+.bsa-form-custom-left {
+  display: flex;
+  justify-content: left;
+}
+.bsa-form-custom-right {
+  display: flex;
+  justify-content: right;
+}
+
+.scouting_beascout_form input,
+.scouting_beascout_form button {
+  padding: 12px 24px;
+  line-height: 1;
+  height: 40px;
+  border: solid 2px #969897;
+  border-radius: 4px;
+}
+.scouting_beascout_form input {
+  max-width: 120px;
+}
+.scouting_beascout_form button {
+  font-family: "Roboto", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  background-color: #1b4185;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1b4185;
+  color: #FFF;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+
+.scouting_beascout_form button:hover {
+  background-color: #2C5E98;
+  border-color: #2C5E98;
+}
+
+.scouting_beascout_form button:focus,
+.scouting_beascout_form button:active {
+  background-color: #1b4185;
+  border-color: #1b4185;
+}
+
+.bsa-form-custom .bsa-form-custom__item:first-child {
+  border-radius: 4px 0 0 4px;
+  border-right: 0;
+}
+
+.bsa-form-custom .bsa-form-custom__item:last-child {
+  border-radius: 0 4px 4px 0;
+}
